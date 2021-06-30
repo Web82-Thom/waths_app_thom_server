@@ -29,7 +29,7 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(port, "192.168.1.14", () => {
+server.listen(port, "0.0.0.0", () => {
   console.log("server started");
   console.log(port);
   console.log(server);
