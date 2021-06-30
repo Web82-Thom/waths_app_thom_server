@@ -9,7 +9,9 @@
     "nodemon": "^2.0.7",
     "socket.io": "^2.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2"
+  },
   "scripts": {
     "dev": "nodemon index"
   },
